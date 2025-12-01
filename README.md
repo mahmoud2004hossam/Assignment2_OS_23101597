@@ -1,22 +1,24 @@
-# mahmoud_23101597_os
+# Assignment2_OS_23101597
 
-This project contains several C programs along with a Makefile that allows you to easily build and run all tasks.
+This repository contains multiple C programs related to Operating Systems concepts such as process creation, forking, and basic system-level operations. Each `.c` file represents a different task or experiment.
 
-## 1. Prerequisites
+---
 
-Before running the programs, ensure that GCC and essential build tools are installed.  
-On Ubuntu/Debian systems, install them using:
+## 📌 Prerequisites
 
+Before compiling or running the programs, ensure that GCC (GNU Compiler Collection) is installed on your system.
+
+### Install GCC on Ubuntu / Debian:
 ```bash
-sudo apt update
+sudo apt install gcc
 sudo apt install build-essential
 
-
-.
-├── p.c
-├── file1.c
-├── file2.c
-├── simple.c
-├── Makefile
-├── Screenshots.pdf
-└── Linker&Loader.txt
+gcc --version
+make --version
+### Repository Structure
+├── fork.c
+├── mahmoud.c
+├── mahmoud1.c
+├── mahmoud2.c
+├── LICENSE
+└── README.md
