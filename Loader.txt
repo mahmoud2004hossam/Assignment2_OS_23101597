@@ -1,0 +1,2 @@
+What is Loader?
+It is special program that takes input of executable files from linker, loads it to main memory, and prepares this code for execution by computer. Loader allocates memory space to program. Even it settles down symbolic reference between objects. It is in charge of loading programs and libraries in operating system. The embedded computer systems don't have loaders. In them, code is executed through ROM. There are following various loading schemes: 
